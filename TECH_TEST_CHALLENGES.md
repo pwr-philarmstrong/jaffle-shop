@@ -484,11 +484,18 @@ All commands should execute without errors.
 - `dbt run --select model_name --debug` - Verbose output
 - Check DuckDB file directly: `duckdb jaffle-shop-challenge.duckdb`
 
+
 ## Resources
-- [dbt documentation](https://docs.getdbt.com)
-- [DuckDB SQL documentation](https://duckdb.org/docs/sql/introduction)
-- [dbt unit tests](https://docs.getdbt.com/docs/build/unit-tests)
-- [dbt contracts](https://docs.getdbt.com/docs/collaborate/contracts)
+- [dbt documentation](https://docs.getdbt.com) — dbt core docs and best practices.
+- [DuckDB SQL documentation](https://duckdb.org/docs/sql/introduction) — DuckDB intro and SQL reference.
+- [dbt unit tests](https://docs.getdbt.com/docs/build/unit-tests) — dbt's unit testing guide.
+- [dbt contracts](https://docs.getdbt.com/docs/collaborate/contracts) — data contract docs.
+- Visual Studio Code (IDE): https://code.visualstudio.com/ — lightweight, extensible editor. Useful extensions: Python, SQL, and dbt helper extensions (e.g., dbt Power User).
+- DuckDB Studio / UI: https://duckdb.org/docs/tools/duckdb_studio — UI for exploring DuckDB files and running ad-hoc queries.
+- Poetry (dependency manager): https://python-poetry.org/ — used here for Python and dbt dependency management.
+- Jaffle Shop (official dbt demo repo): https://github.com/dbt-labs/jaffle_shop — canonical example to reference.
+- DuckDB regex functions: https://duckdb.org/docs/sql/functions/regexp — reference for REGEXP-related functions used for SKU parsing and pattern extraction.
+- DuckDB JSON functions: https://duckdb.org/docs/sql/functions/json — reference for JSON_EXTRACT, JSON_PARSE, and other JSON helpers used for audit log extraction.
 
 ---
 
